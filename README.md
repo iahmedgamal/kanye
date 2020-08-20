@@ -1,1 +1,1 @@
-TailWind
+Tailwind repo config
