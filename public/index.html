@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>TailWind</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-  </head>
-  <body class="bg-blue-200">
-      <div class="container mx-auto px-2">
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Button
-          </button>
-      </div>
-          </body>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Kanye West</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body class="bg-gray-100">
+  <script type="text/javascript" src="js/index.js"></script>
+
+
+  <div class="flex justify-start bg-white h-16  shadow-xl">
+    <img class="h-16    ml-16 mt-1" src="../src/img/Yeezy-Logo.png" alt="Random">
+  </div>
+
+  <br></br>
+  <br></br>
+
+  <div class="max-w-sm mx-auto flex p-8 bg-white rounded-lg shadow-xl ">
+    <img class="bg-cover bg-center " src="../src/img/kanye_west.jpg" alt="Random">
+
+  </div>
+
+
+  <div class="max-w-sm mx-auto flex p-8 bg-white rounded-lg shadow-xl">
+    <div class="ml-6 pt-1">
+      <button
+        class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+        onclick="randomQuote()">
+        Random Quote
+      </button>
+    </div>
+  </div>
+
+
+
+  <div class="max-w-sm mx-auto flex p-8 bg-white rounded-lg shadow-xl">
+    <div class="ml-6 pt-1">
+      <h4 class="text-xl text-gray-900 leading-tight">Kanye West:</h4>
+      <p id='quote' class="text-base text-gray-600 leading-normal">Loading...</p>
+    </div>
+  </div>
+
+
+
+</body>
+
 </html>
